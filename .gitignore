@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data Files (Large)
+*.pkl
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# Virtual Env
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project Data (Large Files)
+data/raw_csv/*
+!data/raw_csv/README.md
+data/h5/*
+!data/h5/README.md
+data/derived/*
+!data/derived/README.md
+
+# Artifacts (Keep specific subdirs if needed, but ignore generated stuff)
+# artifacts/*
+# !artifacts/figures/
+# !artifacts/tables/
+# !artifacts/reports/
+
+# Models (Keep registry, ignore large dumps)
+models/checkpoints/*
+models/exports/*
+!models/exports/model.joblib
+!models/exports/scalers.joblib
+
+# Logs
+logs/*
+!logs/README.md
